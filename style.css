@@ -9,6 +9,9 @@
   --clr-teal-400: #27B7C1; 
   --clr-yellow-400: #F2BF5D; 
 
+  /* --clr-gradient:  */
+  background: linear-gradient(348deg, rgba(242,191,93,1) 0%, rgba(247,153,199,1) 25%, rgba(39,183,193,1) 52%);
+
 /* Font Styles */
 /* --ff-heading: 'Sirin Stencil', cursive; */
 --ff-primary: 'Open Sans', sans-serif; 
@@ -105,6 +108,20 @@ align-items: center;
 li.navList-item{
   font-size: 1.2em; 
   padding: 1em; 
+}
+
+.navLink{
+  color: var(--clr-neutral-900); 
+  text-decoration: none; 
+}
+
+.navLink:visited{
+  color: var(--clr-neutral-900); 
+}
+
+.navLink:hover{
+ color: var(--clr-teal-400); 
+text-decoration: underline; 
 }
 
  /* end of navBar */
