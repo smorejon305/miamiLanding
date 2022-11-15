@@ -7,7 +7,7 @@
 
   --clr-teal-400: #27B7C1; 
   --clr-yellow-400: #F2BF5D; 
-  --clr-red-400: #F15D5C; 
+  --clr-pink-400: #F799C7; 
 
 /* Font Styles */
 /* --ff-heading: 'Sirin Stencil', cursive; */
@@ -27,6 +27,33 @@
 body{
   background-color: var(--clr-neutral-100); 
 }
+
+/* BREATHING ROOM */
+div.breathingRoom{
+  height: 5em; 
+}
+/* end of BREATHING ROOM */
+
+/* Section Header */
+div.sectionHeader{
+  background-color: var(--clr-neutral-900);   
+  border-radius: 10px; 
+  max-width: 90%; 
+  margin: 0 auto; 
+
+}
+
+h2.sectionHeader-text{
+  color: var(--clr-neutral-100); 
+  font-family: var(--ff-accent); 
+  font-size: 2em; 
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 3em; 
+  padding-top: .5em; 
+  padding-bottom: .5em; 
+}
+/* end of Section Header */
 
 
 /* HERO SECTION - MAIN HEADER */
@@ -76,9 +103,12 @@ li.navList-item{
   padding: 1em; 
 }
 
-
-
  /* end of navBar */
+
+
+/* FOOTER SECTION */
+
+/* end of FOOTER SECTION */
 
 
 /* Media Queries */
