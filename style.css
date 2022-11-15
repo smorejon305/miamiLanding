@@ -120,6 +120,41 @@ li.navList-item{
   margin: 0 auto; 
 }
 
+.highlightsSection-name{
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  text-align: center; 
+  padding-top: 1em; 
+}
+
+.recLink{
+  color: var(--clr-neutral-900); 
+  text-decoration: none; 
+}
+
+.recLink:visited{
+color: var(--clr-neutral-900); 
+}
+
+.recLinkFood:hover{
+  color: var(--clr-pink-400); 
+}
+
+.recLinkBeach:hover{
+  color: var(--clr-yellow-400); 
+}
+
+.recLinkParty:hover{
+  color: var(--clr-teal-400); 
+}
+
+
+.highlightsSection-caption{
+  font-family: var(--ff-primary); 
+  font-size: 1em; 
+  text-align: center; 
+}
+
 /* end of HIGHLIGHTS SECTION */
 
 
