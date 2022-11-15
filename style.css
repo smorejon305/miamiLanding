@@ -5,9 +5,9 @@
   --clr-neutral-100: #F5F5F5; 
   --clr-neutral-900: #34363C; 
 
+  --clr-pink-400: #F799C7; 
   --clr-teal-400: #27B7C1; 
   --clr-yellow-400: #F2BF5D; 
-  --clr-pink-400: #F799C7; 
 
 /* Font Styles */
 /* --ff-heading: 'Sirin Stencil', cursive; */
@@ -99,7 +99,7 @@ align-items: center;
  }
 
 li.navList-item{
-  font-size: 1.5em; 
+  font-size: 1.2em; 
   padding: 1em; 
 }
 
@@ -107,6 +107,32 @@ li.navList-item{
 
 
 /* FOOTER SECTION */
+div.footerSection{
+  background-color: var(--clr-neutral-900); 
+  color: var(--clr-neutral-100); 
+  font-family: var(--ff-accent); 
+  text-align: center; 
+  padding-top: 1em; 
+  padding-bottom: 1em; 
+  display: flex; 
+}
+
+.logoImage{
+max-height: 10vh; 
+margin: 0 auto; 
+}
+
+.footerText-center{
+  padding: 1em; 
+  text-align: center; 
+}
+
+.footerText-right{
+  padding: 1em; 
+  right: 0; 
+}
+
+
 
 /* end of FOOTER SECTION */
 
