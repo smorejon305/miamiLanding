@@ -367,13 +367,6 @@ margin: 0 auto;
   font-size: 1.3em; 
 }
 
-.submitButton-link{
-  text-decoration: none; 
-}
-
-.submitButton-link:hover{
-  color: var(--clr-neutral-100);
-}
 
 /* end of CONTACT FORM */
 
@@ -467,6 +460,18 @@ h1.mainHeader{
     font-size: .8em; 
     padding: 0 10vw; 
   }
+
+    .contactForm-header{
+      font-size: 1em; 
+    }
+
+    .contactForm-emailAddress{
+      width: 95vw; 
+    }
+
+    .contactForm-submitButton{
+      width: 50vw; 
+    }
 
   }
 /* end of Mobile Phones */
