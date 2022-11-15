@@ -56,7 +56,7 @@ h2.sectionHeader-text{
   font-size: 2em; 
   justify-content: center; 
   align-items: center; 
-  padding-left: 3em; 
+  padding-left: 5vw; 
   padding-top: .5em; 
   padding-bottom: .5em; 
 }
@@ -221,6 +221,10 @@ color: var(--clr-neutral-900);
   justify-content: space-between; 
 }
 
+.galleryImage:hover{
+  width: 22vw; 
+}
+
 /* GALLERY ROW 1 */
 .galleryImage1{
 background-image: url(src/media/MiamiLanding-Gallery/Miami\ tip\ |\ Rio\ Silverio\ Gonzalez.png); 
@@ -328,6 +332,51 @@ margin: 0 auto;
 
 /* end of GALLERY SECTION */
 
+/* CONTACT FORM */
+
+.contactForm-header{
+  font-family:var(--ff-accent); 
+  font-size: 2em; 
+  text-align: center; 
+}
+
+.contactForm-emailAddress{
+  display: block; 
+  margin: 0 auto; 
+  padding: 1em; 
+  width: 25vw; 
+  border: 1px solid black; 
+  border-radius: 10px; 
+}
+
+.contactForm-submitButton{
+  color: var(--clr-neutral-900); 
+  font-family: var(--ff-accent); 
+  font-size: 1.2em; 
+  background-color: var(--clr-teal-400); 
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 1em; 
+  width: 10vw; 
+  padding: 1em; 
+  border-radius: 10px; 
+}
+
+.contactForm-submitButton:hover{
+  color: var(--clr-neutral-100); 
+  font-size: 1.3em; 
+}
+
+.submitButton-link{
+  text-decoration: none; 
+}
+
+.submitButton-link:hover{
+  color: var(--clr-neutral-100);
+}
+
+/* end of CONTACT FORM */
+
 
 /* FOOTER SECTION */
 div.footerSection{
@@ -357,7 +406,19 @@ max-height: 10vh;
   right: 0; 
 }
 
+.footerLink{
+  color: var(--clr-neutral-100); 
+  font-size: .8em; 
+  text-decoration: none; 
+}
 
+.footerLink:visited{
+  color: var(--clr-neutral-100); 
+}
+
+.footerLink:hover{
+  color: var(--clr-teal-400); 
+}
 
 /* end of FOOTER SECTION */
 
@@ -382,8 +443,29 @@ h1.mainHeader{
     left: 20%; 
   }
   
+  .nav{
+    max-width: 100vw; 
+  }
+
+
   .navLink{
-    font-size: 1em; 
+    font-size: .5em; 
+  }
+  .highlightsSection-name{
+    font-size: .8em; 
+  }
+
+  .highlightsSection-caption{
+    font-size: .5em; 
+  }
+
+  .quickFacts-name{
+    font-size: 1.5em; 
+  }
+
+  .quickFacts-text{
+    font-size: .8em; 
+    padding: 0 10vw; 
   }
 
   }
