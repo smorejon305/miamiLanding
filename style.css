@@ -381,6 +381,11 @@ h1.mainHeader{
     font-size: 4em; 
     left: 20%; 
   }
+  
+  .navLink{
+    font-size: 1em; 
+  }
+
   }
 /* end of Mobile Phones */
 
