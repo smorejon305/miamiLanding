@@ -32,6 +32,10 @@ body{
 div.breathingRoom{
   height: 5em; 
 }
+
+.littleBreath{
+  height: 2.5em; 
+}
 /* end of BREATHING ROOM */
 
 /* Section Header */
@@ -156,6 +160,31 @@ color: var(--clr-neutral-900);
 }
 
 /* end of HIGHLIGHTS SECTION */
+
+/* QUICK FACTS SECTION */
+.quickFactsSection-container{
+  max-width: 100vw; 
+}
+
+.quickFacts-name{
+  color: var(--clr-neutral-900); 
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  /* margin-left: 15vw;  */
+  text-align: center; 
+  padding-bottom: .5em; 
+  padding-top: 1em; 
+}
+
+.quickFacts-text{
+  color: var(--clr-neutral-900); 
+  font-family: var(--ff-primary); 
+  font-size: 1em; 
+  /* margin-left: 20vw;  */
+  text-align: center; 
+}
+
+/* end of QUICK FACTS SECTION */
 
 
 /* FOOTER SECTION */
