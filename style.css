@@ -180,6 +180,7 @@ color: var(--clr-neutral-900);
 /* QUICK FACTS SECTION */
 .quickFactsSection-container{
   max-width: 100vw; 
+  height: fit-content; 
 }
 
 .quickFacts-name{
@@ -206,7 +207,7 @@ color: var(--clr-neutral-900);
 /* GALLERY SECTION */
 .gallery-container{
   max-width: 100vw; 
-  height: 100vh; 
+  height: fit-content; 
   justify-content: space-between; 
 
 }
@@ -301,7 +302,7 @@ margin: 0 auto;
             }
 
             .galleryImage8{
-              background-image: url(src/media/MiamiLanding-Gallery/downtown\ by\ night\.png); 
+              background-image: url(src/media/MiamiLanding-Gallery/downtown\ by\ night.png);  
               background-position: 50% 50%; 
               background-repeat: no-repeat; 
               background-size: cover; 
@@ -334,12 +335,14 @@ div.footerSection{
   text-align: center; 
   padding-top: 1em; 
   padding-bottom: 1em; 
-  display: flex; 
+
 }
+
+
 
 .logoImage{
 max-height: 10vh; 
-margin: 0 auto; 
+
 }
 
 .footerText-center{
