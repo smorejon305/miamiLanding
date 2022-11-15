@@ -10,10 +10,9 @@
   --clr-yellow-400: #F2BF5D; 
 
   /* --clr-gradient:  */
-  background: linear-gradient(348deg, rgba(242,191,93,1) 0%, rgba(247,153,199,1) 25%, rgba(39,183,193,1) 52%);
+  /* background: linear-gradient(348deg, rgba(242,191,93,1) 0%, rgba(247,153,199,1) 25%, rgba(39,183,193,1) 52%); */
 
 /* Font Styles */
-/* --ff-heading: 'Sirin Stencil', cursive; */
 --ff-primary: 'Open Sans', sans-serif; 
 --ff-accent: 'Poiret One', cursive;
 }
@@ -202,6 +201,129 @@ color: var(--clr-neutral-900);
 }
 
 /* end of QUICK FACTS SECTION */
+
+
+/* GALLERY SECTION */
+.gallery-container{
+  max-width: 100vw; 
+  height: 100vh; 
+  justify-content: space-between; 
+
+}
+
+.galleryRow{
+  display: flex; 
+  padding: 5%; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+/* GALLERY ROW 1 */
+.galleryImage1{
+background-image: url(src/media/MiamiLanding-Gallery/Miami\ tip\ |\ Rio\ Silverio\ Gonzalez.png); 
+background-position: 50% 50%; 
+background-repeat: no-repeat; 
+background-size: cover; 
+height: 30vh; 
+width: 25vw; 
+border-radius: 25px;
+margin: 0 auto; 
+}
+
+.galleryImage2{
+  background-image: url(src/media/MiamiLanding-Gallery/Sunset.png); 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 30vh; 
+  width: 25vw; 
+  border-radius: 25px;
+  margin: 0 auto; 
+  }
+
+  .galleryImage3{
+    background-image: url(src/media/MiamiLanding-Gallery/Art\ Deco.png); 
+    background-position: 50% 50%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 30vh; 
+    width: 25vw; 
+    border-radius: 25px;
+    margin: 0 auto; 
+    }
+
+
+    /* GALLERY ROW 2 */
+    .galleryImage4{
+      background-image: url(src/media/MiamiLanding-Gallery/Downtown\ Miami.png); 
+      background-position: 50% 50%; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      height: 30vh; 
+    width: 25vw; 
+    border-radius: 25px;
+    margin: 0 auto; 
+      }
+
+      .galleryImage5{
+        background-image: url(src/media/MiamiLanding-Gallery/beach\ from\ above.png); 
+        background-position: 50% 50%; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        height: 30vh; 
+        width: 25vw; 
+        border-radius: 25px;
+        margin: 0 auto; 
+        }
+
+        .galleryImage6{
+          background-image: url(src/media/MiamiLanding-Gallery/lifeguard\ station.png); 
+          background-position: 50% 50%; 
+          background-repeat: no-repeat; 
+          background-size: cover; 
+          height: 30vh; 
+          width: 25vw; 
+          border-radius: 25px;
+          margin: 0 auto; 
+          }
+
+          /* GALLERY ROW 3 */
+
+          .galleryImage7{
+            background-image: url(src/media/MiamiLanding-Gallery/beach\ side\ view.png); 
+            background-position: 50% 50%; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            height: 30vh; 
+            width: 25vw; 
+            border-radius: 25px;
+            margin: 0 auto; 
+            }
+
+            .galleryImage8{
+              background-image: url(src/media/MiamiLanding-Gallery/downtown\ by\ night\.png); 
+              background-position: 50% 50%; 
+              background-repeat: no-repeat; 
+              background-size: cover; 
+              height: 30vh; 
+              width: 25vw; 
+              border-radius: 25px;
+              margin: 0 auto; 
+              }
+
+              .galleryImage9{
+                background-image: url(src/media/MiamiLanding-Gallery/Miami\ Coastline\ byAntonio\ Cuellar.png); 
+                background-position: 50% 50%; 
+                background-repeat: no-repeat; 
+                background-size: cover; 
+                height: 30vh; 
+                width: 25vw; 
+                border-radius: 25px;
+                margin: 0 auto; 
+                }
+
+
+/* end of GALLERY SECTION */
 
 
 /* FOOTER SECTION */
